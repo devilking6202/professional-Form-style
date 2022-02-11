@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    font-family:Oswald; color: red;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#image {
+    background-image: url(./5_6057346180327670021.png);
+    height: 100vh;
+    width: 50%;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    float: left;
+
+}
+#container{
+    width: 50%;
+    float: right;
+    
+ 
+}
+
+.form_wrap{
+  
+    width: 383px;
+    height: 500px;
+    position: relative;
+    left: 150px;
+    top: 130px;
+}
+.form_wrap h1{
+    font-family: Oswald;
+     font-size: 55px;
+    font-weight: 500;
+
+}
+.form_wrap h3{
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.inputs{
+    margin-top: 30px;
+}
+input{
+   
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding: 20px;
+    font-family: montserrat;
+
+}
+button{
+    cursor: pointer;
+    font-family: Oswald;
+    font-size: 15px;
+    padding: 9px 50px;
+ 
+    border: none;
+    color: white;
+    margin-top:70px;
+}
+.submit{
+    background-color: rgb(255, 62, 62);
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 50px;
+    height: 45px;
+    font-family: raleway;
+    cursor: pointer;
+}
+.submit:hover{
+ transition: 0.5s;
+    background-color: rgb(255, 0, 0);
+}
+#lock{
+font-size: 11px;
+
+}
+
+
+.twitter{
+    background-color: #51b5f3;
+margin-right: 23px;
+}
+.twitter:hover{
+    transition: 0.5s;
+    background-color: #1DA1F2;
+}
+.fb{
+    background-color: #6b83b8;
+    
+}
+.fb:hover{
+    transition: 0.5s;
+   background-color:  #3b5998;
+}
+
+.link{
+    position:absolute;
+  right: 10px;
+  
+  font-size: 15px;
+ margin-top: 10px;
+
+}
+p{
+    position:absolute;
+    margin: 7px 90px;
+    font-family: nunito;
+    font-size: 14px;
+}
+i{
+    margin-right: 10px;
+}
